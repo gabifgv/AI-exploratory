@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "mcp__claude_ai_Hugging_Face__hf_hub_query"
+      "mcp__claude_ai_Hugging_Face__hf_hub_query",
+      "mcp__claude_ai_Hugging_Face__hf_doc_fetch"
     ]
   }
 }
