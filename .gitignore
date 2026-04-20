@@ -78,6 +78,17 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Downloaded dataset files (large, re-downloadable via huggingface_hub)
+**/data/release_*/
+**/data/labor_market_impacts/
+**/data/*.csv
+**/data/*.json
+**/data/*.parquet
+**/data/*.xlsx
+**/data/*.txt
+# Keep .gitkeep so folder is tracked
+!**/data/.gitkeep
+
 # IPython
 profile_default/
 ipython_config.py
